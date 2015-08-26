@@ -1,0 +1,81 @@
+.container{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  min-width: 500px;
+}
+
+.recipe{
+    position: relative;
+  display: inline-block;
+  width: 55%;
+
+}
+article{
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(103, 205, 255);
+  padding-top: 40px;
+  padding-right: 35px;
+  padding-bottom: 60px;
+  padding-left: 35px;
+border-radius: 5px;
+color: white;
+font-family: sans-serif;
+}
+article h1{
+  border-bottom: 1px solid gray;
+  font-family: serif;
+}
+.triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 20.6px 10px 0;
+  border-color: transparent #54C0F5 transparent transparent;
+  position: absolute;
+  top: 6px;
+  left: -17px;
+}
+.side{
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+
+
+}
+.date{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-left: 55%;
+}
+.date h6{
+  margin: 0 0 0 23px;
+  font-family: sans-serif;
+  color: grey;
+}
+.date h2{
+  margin: 0;
+  width: 100%;
+  color: #54C0F5;
+
+}
+.icon{
+position:absolute;
+
+  top:0;
+  left:35%;
+}
+.cellphone{
+  height: 38px;
+  border-radius: 100%;
+}
+article:hover{
+  background-color: #4D96C8;
+}
+
+article:hover .triangle{
+  border-color: transparent #4D96C8 transparent transparent;
+}
